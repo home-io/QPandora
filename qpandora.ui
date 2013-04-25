@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QPandora</class>
+ <widget class="QWidget" name="QPandora">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>645</width>
+    <height>329</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QPandora</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#QPandora {border-image: url(:/mainwindow_bg.png);}
+QPushButton:pressed { border-style: outset; }
+QPushButton:hover { border-style: outset; }
+QPushButton:enabled { border-style: outset; }
+</string>
+  </property>
+  <widget class="QPushButton" name="btnTdown">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>279</y>
+     <width>51</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnTup">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>279</y>
+     <width>53</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnPlay">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>278</y>
+     <width>62</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+o</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnChange">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>272</y>
+     <width>125</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSkip">
+   <property name="geometry">
+    <rect>
+     <x>447</x>
+     <y>277</y>
+     <width>58</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnExit">
+   <property name="geometry">
+    <rect>
+     <x>581</x>
+     <y>6</y>
+     <width>51</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUPdown">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>6</y>
+     <width>51</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="txtFeed">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>61</y>
+     <width>646</width>
+     <height>205</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnKill">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>280</y>
+     <width>50</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="qpandora_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>150</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

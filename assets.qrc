@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="mainwindow_bg.png">assets/mainwindowbg.png</file>
+        <file alias="button_skip_up.png">assets/button_skip.png</file>
+        <file alias="button_play_up.png">assets/button_play.png</file>
+        <file alias="button_love_up.png">assets/love_btn_up.png</file>
+        <file alias="button_hate_up.png">assets/hate_btn_up.png</file>
+        <file alias="button_quit_up.png">assets/quit_button_up.png</file>
+        <file alias="button_change_up.png">assets/change_btn_up.png</file>
+        <file alias="qpandora_title.png">assets/qpandora_title.png</file>
+    </qresource>
+</RCC>
